@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Murang'a County | Homepage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="main.css" rel="stylesheet">
+<link href="home.css" rel="stylesheet">
+<style>
+.class{float:left;}
+</style>
+</head>
+<body style="background-image:url(images/wallpaper.jpg);">
+<header>
+<nav>
+<div>
+  <div class="topnav">
+  <h1 style="text-align:center">ASSIST A CHILD TO SCHOOL<br/>MURANG`A COUNTY EDUCATION FORUM.</h1>
+<img src="images\logo.png" width="211px" height="238px" class="logo"/>
+ <img src="images\muranga high.jpg" width="740px" height="238px" class="logo"/>
+ <img src="images\muranga flag.gif" width="230px" height="238px" class="flag"/>
+  <a href="home.html" class="active">Home</a>
+     <div class="dropdown">
+    <button class="dropbtn">Media 
+    </button>
+    <div class="dropdown-content">
+      <a href="gallery.html">Gallery</a>
+      <a href="documents.html">Documents</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">About Us
+     </button>
+    <div class="dropdown-content">
+      <a href="murang`a.html">Murang`a County</a>
+      <a href="education.html">Education History</a>
+    </div>
+  </div> 
+    <a href="Forums.html">Forums</a>
+  <a href="donate.html">Donate</a>
+  <a href="faqs.html">FAQs</a>
+  <a href="contact.html">Contact Us</a>
+  </div>
+</div>
+</nav>
+</header>
+<!__This is the end of the common page html coding__>
+
+<main>
+<div class="content">
+<div class="row">
+  <div class="column left" style="background-color:#f7edf0;">
+  <figure>
+  <img src="images\mcounty.jpg" width="270px" height="198px"/>
+   <figcaption>
+<b>Area:</b> 2,326 km² <br/>
+<b>Population:</b> 1.057 million (2019)<br/>
+<b>Formed:</b> March 4th 2013<br/>
+<b>Colleges and Universities:</b> Murang'a University of Technology, The East African University<br/>
+<b>Points of interest:</b> Aberdare National Park, Mount Kinangop.
+	</figcaption>
+	</figure>
+	<h1>County History</h1>
+    <p>Murang'a County is one of the counties of Kenya's former Central Province. 
+	<br />Its largest town is Murang'a its capital, called Fort Hall in colonial times (before 1963). 
+	<br />It is inhabited mainly by and is considered the home of the Gikuyu, the largest community in Kenya. 
+	<br />The county has a population of 1,056,640 (2019 census).</p>
+      </div>
+  <div class="column middle" style="background-color:#f4fdd9;">
+  <h1>The Governor</h1>
+  <img src="images\governor.jpg" class="governor"/>
+  <p>Francis Mwangi wa Iria is the 1st and current Governor of Murang'a County in Kenya.</p>
+    <h1>Education Emergence</h1>
+	<img src="images\MUT.jfif" width="328px" height="154px" class="mut"/>
+    <p style="text-align:justify">Currently, there is only one public university in the county, known as Murang’a University of Technology (MUT). 
+	Murang’a University of Technology (MUT) was established in September 2011 via Murang’a University College order legal notice No. 129 of 
+	September 2011 as a constituent College of Jomo Kenyatta University of Agriculture and Technology. 
+		<span id="dots">...</span><span id="more">
+	MUT is the successor of Murang’a University College and Murang'a College of Technology. 
+	The University currently operates under the provision of the Universities Act 2012 CAP 210 B of the laws of Kenya. 
+	MUT is positioning itself to develop a distinctive profile as a progressive and international Technical University, growing its enrollment strategically.
+</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+  </div>
+  <div class="column right" style="background-color:#f7edf0;">
+    <h2 style="color:olive">Latest News</h2>
+	<div class="card">
+  <img class="news" src="images\learn.jpg" alt="learn" width="60px" height="50px"/>
+  <em><b>Murang'a county Governor initiates learning for the small children. This builds a better foundation amongest kids and youths.</b></em> 
+   </div>
+   <div class="card">
+  <img class="news" src="images\nav.jpg" alt="2019 Results" width="60px" height="50px"/>
+  <em><b>Pay a visit at Murang'a museum. Entrace and accomodation charges are fairly recognised for visitors.</b></em> 
+   </div>
+</div>
+  </div>
+</div>
+</div>
+</main>
+<footer>
+<h3><em>&copy Copyright 2020 Murang`a County Education Assemblies</em></h3>
+</footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 5px;
+  height: 710px;
+}
+.gcolumn {
+  float: left;
+  padding: 5px;
+  height: 400px; 
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 350px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.left, .right {
+  width: 30%;
+}
+
+.middle {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mut {
+  float: left;
+}
+.governor{
+float:right;
+}
+.flag{
+float:right;
+}
+figure {
+		width:300px;
+		padding:3px;
+		border:2px Solid;
+		}
+figcaption {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		}
+#more {display: none;}
